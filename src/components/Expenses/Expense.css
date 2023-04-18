@@ -12,11 +12,10 @@ html {
 
 .expenses {
   width: 50%;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 24px 16px;
+  padding: 32px 16px;
   margin: 0 auto;
   margin-top: 24px;
-  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .expense-item {
@@ -26,9 +25,7 @@ html {
   font-weight: 700;
   margin-top: 16px;
   gap: 1.5rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   padding: 1rem 1rem;
-  border-radius: 1rem;
   background-color: #4b4b4b;
 }
 
@@ -38,6 +35,7 @@ html {
 
 /* DATE COMPONENT */
 .expense-date {
+  width: 70px;
   font-size: 14px;
   font-weight: normal;
   background-color: rgba(0, 0, 0, 0.6);
@@ -84,4 +82,10 @@ html {
   padding: 5px 15px;
   border-radius: 8px;
   color: #fff;
+}
+
+.expense-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
